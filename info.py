@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25688754'))
 API_HASH = environ.get('API_HASH', '83d492a0ec1e9660d70b5c62d424e95e')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6558460967:AAEMTl98Ss8LE0zXlB718W5yyP2TFNXSQdM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6958674855:AAHuwKrNO_aCY4rfNabLPfTXNvO-uZTS1Qk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,16 +43,16 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hebapir376:ravi1234@cluster0.x9pmpfx.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://telegrambot291:telegram123@cluster0.quu131p.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'MdiskShortner.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', '00b0eacdca74780666d78f22ec43440e43994c2b')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'MdiskShortner.link')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '00b0eacdca74780666d78f22ec43440e43994c2b')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001783989785').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "15")
