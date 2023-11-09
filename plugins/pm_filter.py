@@ -79,7 +79,7 @@ async def give_filter(client, message):
                     [
                         InlineKeyboardButton(
                             "Mᴏᴠɪᴇ Gʀᴏᴜᴘ😊",
-                            url=f"https://t.me/+pmhTr2tgJzRlMmI1",
+                            url=f"",
                         )
                     ]
                 ]
@@ -106,7 +106,7 @@ async def pm_text(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        "ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ 😊", url=f"https://t.me/Cinemavilla0012"
+                        "ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ 😊", url=f""
                     )
                 ]
             ]
@@ -1292,7 +1292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+PA8OPL2Zglk3MDM1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1317,7 +1317,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+PA8OPL2Zglk3MDM1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
